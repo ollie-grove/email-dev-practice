@@ -22,7 +22,7 @@
         <!-- end top nav -->
 
         <mj-section padding="0px">
-        
+        <mj-column>
 
        <mj-divider border-color="#F45E43"></mj-divider>
 
@@ -30,5 +30,74 @@
 
      </mj-column>
    </mj-section>
+
+<!-- Start main Hero / CTA section -->
+
+    <mj-section padding="40px 30px" background-color="#555555" background-url="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+    
+    <mj-column>
+        <mj-text font-size="16px" color="#F45E43" align="center" line-height="1" font-family="poppins, sans-serif">
+        Supporting Copy that will entice your <br>
+        Subscribers to click the CTA below.
+        </mj-text>
+
+    <!-- IF YOU USE A BUTTON ON AN MJ-SECTION WITH A BACKGROUND IMAGE, YOU MUST SET PADDING-LEFT AND PADDING-RIGHT TO 0PX IN ORDER FOR IT TO BE CENTERED IN OUTLOOK-->
+
+        <mj-button padding-left="0px" padding-right="0px" font-family="poppins, sans-serif" border-radius="0px" font-size="20px" background-color="#a2dc3a" color="#333" font-weight="bold">CLICK HERE
+            
+        </mj-button>
+        
+    </mj-column>
+        
+    </mj-section>
+
+    <!-- End main Hero / CTA section -->
+
+    <!-- Start main text section -->
+
+    <mj-section background-color="#f4f4f4">
+    <mj-column>
+    <mj-text font-size="16px" color="#333" align="left" line-height="1.4" font-family="poppins, sans-serif">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        
+    </mj-text>
+
+    <mj-button padding-left="0px" padding-right="0px" font-family="poppins, sans-serif" border-radius="0px" font-size="20px" background-color="#a2dc3a" color="#333" font-weight="bold">CLICK AGAIN
+        
+    </mj-button>
+        
+    </mj-column>
+        
+    </mj-section>
+
+    <!-- End main text section -->
+
+    <!--Start footer section -->
+
+    <mj-section padding="0px">
+        <mj-column>
+            <mj-social font-size="12px" icon-size="20px" color="white" mode="horizontal">
+            <mj-social-element padding="20px" font-family="poppins, sans-serif" name="facebook" href="https://mjml.io/">
+            Facebook
+            </mj-social-element>
+
+            <mj-social-element padding="20px" font-family="poppins, sans-serif" name="google" href="https://mjml.io/">
+            Google
+            </mj-social-element>
+
+            <mj-social-element padding="20px" font-family="poppins, sans-serif" name="twitter" href="https://mjml.io/">
+            Twitter
+            </mj-social-element>
+
+            <mj-social-element padding="20px" font-family="poppins, sans-serif" name="linkedin" href="https://mjml.io/">
+            LinkedIn
+            </mj-social-element>
+        
+            </mj-social>
+        
+    </mj-column>
+        
+    </mj-section>
+
  </mj-body>
 </mjml>
