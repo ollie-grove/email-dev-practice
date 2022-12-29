@@ -1,8 +1,11 @@
 <mjml>
- <mj-body>
+ <mj-body background-color="#fff">
+ <mj-raw>
+  <!-- Company header -->
+ </mj-raw>
 
  <!-- top nav -->
-   <mj-section padding="0px">
+  <mj-section>
      <mj-column vertical-align="middle" width="200px" padding="0px">
 
        <mj-image  src="volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg"
@@ -12,9 +15,9 @@
        
        <mj-column width="400px" vertical-align="middle" padding="0px">
         <mj-text padding="8px 0px 0px 0px" font-weight="bold" font-size="12px" align="center" color="#333" font-family="poppins, sans-serif">
-        <a style="text-decoration:non;color:#ffffff;" href="https://emailonacid.com/email-testing">Email Testing</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
-        <a style="text-decoration:non;color:#ffffff;" href="https://emailonacid.com/email-testing">Email Deliverability</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
-        <a style="text-decoration:non;color:#ffffff;" href="https://emailonacid.com/email-testing">Free Trial</a>;
+        <a style="text-decoration:non;color:#000000;" href="https://emailonacid.com/email-testing">Email Testing</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+        <a style="text-decoration:non;color:#000000;" href="https://emailonacid.com/email-testing">Email Deliverability</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+        <a style="text-decoration:non;color:#000000;" href="https://emailonacid.com/email-testing">Free Trial</a>
         </mj-text>
         </mj-column>
         </mj-section>
@@ -76,7 +79,7 @@
 
     <mj-section padding="0px">
         <mj-column>
-            <mj-social font-size="12px" icon-size="20px" color="white" mode="horizontal">
+            <mj-social font-size="12px" icon-size="20px" mode="horizontal">
             <mj-social-element padding="20px" font-family="poppins, sans-serif" name="facebook" href="https://mjml.io/">
             Facebook
             </mj-social-element>
@@ -93,7 +96,13 @@
             LinkedIn
             </mj-social-element>
         
-            </mj-social>
+        </mj-social>
+
+        <mj-text align="center" font-size="10px">1234 Number Ave Suite 200, Somewhere, WA 12345       
+        </mj-text>
+
+        <mj-text align="center" font-size="10px">Unsubscribe
+        </mj-text>
         
     </mj-column>
         
